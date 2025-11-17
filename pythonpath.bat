@@ -56,6 +56,8 @@ if %errorlevel% == 0 (
 @set path=C:\CLI_Tools\Python\Python15;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python15\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python15\Tools\idle"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python15\Lib\
 echo Current version of Python is:
 echo Python 1.5.2
 echo.
@@ -66,6 +68,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python23;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python23\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python23\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python23\Lib\
 echo Current version of Python is:
 python -V
 echo Options: python, python_d, python2.3t, python2.3t_d
@@ -75,6 +79,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python24;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python24\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python24\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python24\Lib\
 echo Current version of Python is:
 python -V
 echo.
@@ -85,6 +91,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python25;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python25\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python25\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python25\Lib\
 echo Current version of Python is:
 python -V
 echo.
@@ -95,6 +103,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python26;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python26\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python26\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python26\Lib\
 echo Current version of Python is:
 python -V
 echo.
@@ -105,6 +115,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python27;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python27\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python27\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python27\Lib\
 echo Current version of Python is:
 python -V
 echo.
@@ -115,6 +127,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python30;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python30\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python30\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python30\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -125,6 +139,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python31;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python31\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python31\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python31\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -135,6 +151,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python32;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python32\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python32\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python32\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -145,6 +163,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python33;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python33\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python33\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python33\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -155,6 +175,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python34;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python34\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python34\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python34\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -165,6 +187,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python35;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python35\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python35\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python35\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -175,6 +199,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python36;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python36\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python36\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python36\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -185,6 +211,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python37;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python37\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python37\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python37\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -195,6 +223,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python38;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python38\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python38\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python38\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -205,6 +235,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python39;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python39\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python39\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python39\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -215,6 +247,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python310;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python310\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python310\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python310\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -225,6 +259,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python311;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python311\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python311\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python311\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -235,6 +271,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python312;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python312\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python312\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python312\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -245,6 +283,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python313;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python313\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python313\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python313\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -255,6 +295,8 @@ goto :eof
 @set path=C:\CLI_Tools\Python\Python314;%path%
 set PY_EXE="C:\CLI_Tools\Python\Python314\python.exe"
 set PY_PROGRAM_PATH="C:\CLI_Tools\Python\Python_Programs
+set PY_IDLE_PATH="C:\CLI_Tools\Python\Python314\Lib\idlelib"
+set PY_LIB_PATH="C:\CLI_Tools\Python\Python314\Lib\
 echo Current version of Python is:
 python --version
 echo.
@@ -289,11 +331,8 @@ if /I %input% EQU 311 call :checkAdminPythonPath311
 if /I %input% EQU 312 call :checkAdminPythonPath312
 if /I %input% EQU 313 call :checkAdminPythonPath313
 if /I %input% EQU 314 call :checkAdminPythonPath314
-if /I %input% EQU abo goto startAbout
-if /I %input% EQU abou goto startAbout
 if /I %input% EQU about goto startAbout
 if /I %input% EQU cls cls&goto startPythonShortcutRedirectManager
-if /I %input% EQU exi goto exitBatchProgram
 if /I %input% EQU exit goto exitBatchProgram
 echo.
 echo Invalid selection. Please try again.
@@ -308,20 +347,13 @@ if exist C:\CLI_Tools\Python\Python15\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement15
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '15'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python15
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt15
 echo The script will now exit.
 echo.
@@ -336,20 +368,13 @@ if exist C:\CLI_Tools\Python\Python23\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement23
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '23'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python23
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt23
 echo The script will now exit.
 echo.
@@ -364,20 +389,13 @@ if exist C:\CLI_Tools\Python\Python24\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement24
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '24'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python24
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt24
 echo The script will now exit.
 echo.
@@ -392,20 +410,13 @@ if exist C:\CLI_Tools\Python\Python25\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement25
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '25'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python25
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt25
 echo The script will now exit.
 echo.
@@ -420,20 +431,13 @@ if exist C:\CLI_Tools\Python\Python26\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement26
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '26'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python26
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt26
 echo The script will now exit.
 echo.
@@ -448,20 +452,13 @@ if exist C:\CLI_Tools\Python\Python27\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement27
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '27'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python27
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt27
 echo The script will now exit.
 echo.
@@ -476,20 +473,13 @@ if exist C:\CLI_Tools\Python\Python30\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement30
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '30'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python30
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt30
 echo The script will now exit.
 echo.
@@ -504,20 +494,13 @@ if exist C:\CLI_Tools\Python\Python31\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement31
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '31'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python31
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt31
 echo The script will now exit.
 echo.
@@ -532,20 +515,13 @@ if exist C:\CLI_Tools\Python\Python32\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement32
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '32'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python32
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt32
 echo The script will now exit.
 echo.
@@ -560,20 +536,13 @@ if exist C:\CLI_Tools\Python\Python33\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement33
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '33'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python33
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt33
 echo The script will now exit.
 echo.
@@ -588,20 +557,13 @@ if exist C:\CLI_Tools\Python\Python34\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement34
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '34'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python34
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt34
 echo The script will now exit.
 echo.
@@ -616,20 +578,13 @@ if exist C:\CLI_Tools\Python\Python35\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement35
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '35'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python35
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt35
 echo The script will now exit.
 echo.
@@ -644,20 +599,13 @@ if exist C:\CLI_Tools\Python\Python36\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement36
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '36'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python36
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt36
 echo The script will now exit.
 echo.
@@ -672,20 +620,13 @@ if exist C:\CLI_Tools\Python\Python37\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement37
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '37'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python37
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt37
 echo The script will now exit.
 echo.
@@ -700,20 +641,13 @@ if exist C:\CLI_Tools\Python\Python38\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement38
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '38'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python38
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt38
 echo The script will now exit.
 echo.
@@ -728,20 +662,13 @@ if exist C:\CLI_Tools\Python\Python39\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement39
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '39'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python39
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt39
 echo The script will now exit.
 echo.
@@ -756,20 +683,13 @@ if exist C:\CLI_Tools\Python\Python310\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement310
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '310'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python310
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt310
 echo The script will now exit.
 echo.
@@ -784,20 +704,13 @@ if exist C:\CLI_Tools\Python\Python311\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement311
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '311'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python311
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt311
 echo The script will now exit.
 echo.
@@ -812,20 +725,13 @@ if exist C:\CLI_Tools\Python\Python312\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement312
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '312'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python312
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt312
 echo The script will now exit.
 echo.
@@ -840,20 +746,13 @@ if exist C:\CLI_Tools\Python\Python313\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement313
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '313'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python313
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt313
 echo The script will now exit.
 echo.
@@ -868,20 +767,13 @@ if exist C:\CLI_Tools\Python\Python314\python.exe (
 )
 goto :eof
 :setPythonShortcutAdminReplacement314
-set "PYTHON_SCRIPT_PATH=C:\CLI_Tools\Python\pythonpath.bat
-set "PYTHON_SHORTCUT_NAME=Python.lnk"
-set "PYTHON_SHORTCUT_PATH=C:\Users\%USERNAME%\Desktop\Python.lnk"
 powershell -Command ^
 $WshShell = New-Object -ComObject WScript.Shell; ^
 $Shortcut = $WshShell.CreateShortcut('C:\Users\%USERNAME%\Desktop\Python.lnk'); ^
 $Shortcut.TargetPath = 'CLI_Tools\Python\pythonpath.bat'; ^
 $Shortcut.Arguments = '314'; ^
 $Shortcut.WorkingDirectory = '%~dp0'; ^
-$Shortcut.Save(); ^
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python314
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
+$Shortcut.Save();
 call :startPythonMainPrompt314
 echo The script will now exit.
 echo.
@@ -915,11 +807,8 @@ if /I %input% EQU 311 call :checkPythonPath311
 if /I %input% EQU 312 call :checkPythonPath312
 if /I %input% EQU 313 call :checkPythonPath313
 if /I %input% EQU 314 call :checkPythonPath314
-if /I %input% EQU abo goto startAbout
-if /I %input% EQU abou goto startAbout
 if /I %input% EQU about goto startAbout
 if /I %input% EQU cls cls&goto startPythonShortcutRedirectManager
-if /I %input% EQU exi goto exitBatchProgram
 if /I %input% EQU exit goto exitBatchProgram
 echo.
 echo Invalid selection. Please try again.
@@ -943,10 +832,6 @@ echo oLink.Arguments = "15" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python15
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt15
 echo The script will now exit.
 echo.
@@ -970,10 +855,6 @@ echo oLink.Arguments = "23" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python23
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt23
 echo The script will now exit.
 echo.
@@ -997,10 +878,6 @@ echo oLink.Arguments = "24" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python24
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt24
 echo The script will now exit.
 echo.
@@ -1024,10 +901,6 @@ echo oLink.Arguments = "25" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python25
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt25
 echo The script will now exit.
 echo.
@@ -1051,10 +924,6 @@ echo oLink.Arguments = "26" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python26
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt26
 echo The script will now exit.
 echo.
@@ -1078,10 +947,6 @@ echo oLink.Arguments = "27" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python27
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt27
 echo The script will now exit.
 echo.
@@ -1105,10 +970,6 @@ echo oLink.Arguments = "30" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python30
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt30
 echo The script will now exit.
 echo.
@@ -1132,10 +993,6 @@ echo oLink.Arguments = "31" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python31
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt31
 echo The script will now exit.
 echo.
@@ -1159,10 +1016,6 @@ echo oLink.Arguments = "32" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python32
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt32
 echo The script will now exit.
 echo.
@@ -1186,10 +1039,6 @@ echo oLink.Arguments = "33" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python33
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt33
 echo The script will now exit.
 echo.
@@ -1213,10 +1062,6 @@ echo oLink.Arguments = "34" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python34
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt34
 echo The script will now exit.
 echo.
@@ -1240,10 +1085,6 @@ echo oLink.Arguments = "35" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python35
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt35
 echo The script will now exit.
 echo.
@@ -1267,10 +1108,6 @@ echo oLink.Arguments = "36" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python36
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt36
 echo The script will now exit.
 echo.
@@ -1294,10 +1131,6 @@ echo oLink.Arguments = "37" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python37
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt37
 echo The script will now exit.
 echo.
@@ -1321,10 +1154,6 @@ echo oLink.Arguments = "38" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python38
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt38
 echo The script will now exit.
 echo.
@@ -1348,10 +1177,6 @@ echo oLink.Arguments = "39" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python39
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt39
 echo The script will now exit.
 echo.
@@ -1375,10 +1200,6 @@ echo oLink.Arguments = "310" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python310
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt310
 echo The script will now exit.
 echo.
@@ -1402,10 +1223,6 @@ echo oLink.Arguments = "311" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python311
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt311
 echo The script will now exit.
 echo.
@@ -1429,10 +1246,6 @@ echo oLink.Arguments = "312" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python312
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt312
 echo The script will now exit.
 echo.
@@ -1456,10 +1269,6 @@ echo oLink.Arguments = "313" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python313
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt313
 echo The script will now exit.
 echo.
@@ -1483,10 +1292,6 @@ echo oLink.Arguments = "" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
-set "PYTHON_INSTALL_PATH=C:\CLI_Tools\Python\Python314
-set "OLDPATH=%PATH%"
-path "%PYTHON_INSTALL_PATH%;%PATH%"
-path "%OLDPATH%"
 call :startPythonMainPrompt314
 echo The script will now exit.
 echo.
@@ -1495,12 +1300,13 @@ goto exitBatchProgram
 :startAbout
 echo.
 echo       Author: DavyJones324 (Alexander Summers)
+echo Program Name: Batch Script Python Version Manager
 echo      Details: This QOL program is meant to mitigate Python's drawbacks of backward incompatibility by not only switching
 echo               between different versions but also allowing the user to run Python scripts regardless of which version
 echo               they are made under. It is still a brutal experience using Python this way, but it is not as bad as going
 echo               without this tool. Requires some or all versions to be installed for partial/full XP.
 echo Compatiblity: Both the Davy Jones OS Batch Script Launcher and the Desktop Screen itself
-echo Release Date: XX/XX/XXXX
+echo Release Date: 11/21/2025
 echo.
 goto startPythonShortcutRedirectManager
 :exitBatchProgram
@@ -1515,7 +1321,14 @@ echo.
 echo Current Command Settings:
 echo For RUN: '%PY_EXE% %PY_PROGRAM_PATH% + \ProgramName\ScriptName.py"'
 echo For PIP: 'python.exe -m pip' (Available in v2.7 and v3.4-v3.14)
+echo For IDLE: '%PY_IDLE_PATH%\idle.bat"' (Note: For v1.5.2, "idle.bat" does not work.)
+echo For LIB: '%PY_LIB_PATH% + ScriptName.py"'
+echo.
 echo For best results, please do not update the PIP managers; leave them just like they were originally installed.
+echo Additionally, all pre-installed "idle.bat" scripts from v2.3-v2.6 and v3.0 can be updated manually with the new ones.
+echo I hope you enjoy the Batch Script Python Version Manager in its entirety^^!
+echo.
+echo - DavyJones324
 echo.
 SetLocal DisableDelayedExpansion
 @echo on
