@@ -1,2 +1,2 @@
 # Batch-Script-Python-Version-Manager
-&lt;DESCRIPTION>
+This QOL program is meant to mitigate Python's drawbacks of backward incompatibility by not only switching between different versions but also allowing the user to run Python scripts regardless of which version they are made under. It is still a brutal experience using Python this way, but it is not as bad as going without this tool. Requires some or all versions to be installed for partial/full XP.
